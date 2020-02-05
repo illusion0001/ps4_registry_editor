@@ -1035,6 +1035,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x4F400900, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/09"),
             new RegInfo(0x4F400A00, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/10"),
 
+            new RegInfo(0x4F400101, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/01/mac_address"),
             new RegInfo(0x4F400201, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/02/mac_address"),
             new RegInfo(0x4F400301, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/03/mac_address"),
             new RegInfo(0x4F400401, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/04/mac_address"),
