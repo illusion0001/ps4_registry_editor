@@ -217,7 +217,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x07020000, 0x00000000, 0x00000004, "/USER/max_used_home_u"),
             new RegInfo(0x07030000, 0x00000000, 0x00000004, "/USER/init_user"),
             new RegInfo(0x07040000, 0x00000000, 0x00000004, "/USER/enable_facercg"),
-            new RegInfo(0x07050000, 0x00000000, 0x00000004, "/USER/max_used_guest"),
+            new RegInfo(0x07050000, 0x00000000, 0x00000004, "/USER/max_used_guest_"),
             new RegInfo(0x07060000, 0x00000000, 0x00000004, "/USER/max_used_sharep"),
             new RegInfo(0x07070000, 0x00000000, 0x00000004, "/USER/cumulative_user"),
             new RegInfo(0x07400000, 0x00000000, 0x00000004, "/USER/disp_acc_info"),
