@@ -707,7 +707,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x3C140000, 0x00000010, 0x00000000, "/BROWSER/TRENDMICRO"),
             new RegInfo(0x3C140100, 0x00000000, 0x00000004, "/BROWSER/TRENDMICRO/web_secsvc_mode"),
             new RegInfo(0x3C140200, 0x00000000, 0x00000004, "/BROWSER/TRENDMICRO/ec_ttl"),
-            //new RegInfo(0x3C140300, 0x00000002, 0x00000004, "/BROWSER/TRENDMICRO/ec_ttl_update"),
+            new RegInfo(0x3C140300, 0x00000002, 0x00000008, "/BROWSER/TRENDMICRO/ec_ttl_update"),
             new RegInfo(0x3C140400, 0x00000000, 0x00000004, "/BROWSER/TRENDMICRO/ec_sub_status"),
 
             new RegInfo(0x3CC80000, 0x00000010, 0x00000000, "/BROWSER/DEBUG"),
@@ -1275,7 +1275,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x78028200, 0x00000000, 0x00000004, "/DEVENV/TOOL/preserve_dmem"),
             new RegInfo(0x78028300, 0x00000000, 0x00000004, "/DEVENV/TOOL/use_default_lib"),
             new RegInfo(0x78028400, 0x00000000, 0x00000004, "/DEVENV/TOOL/dev_auto_assign"),
-            //new RegInfo(0x78028500, 0x00000002, 0x00000008, "/DEVENV/TOOL/lvp_a0_tcdds"),
+            new RegInfo(0x78028500, 0x00000002, 0x00000001, "/DEVENV/TOOL/lvp_a0_tcdds"),
             new RegInfo(0x78028600, 0x00000000, 0x00000004, "/DEVENV/TOOL/razor_gpu"),
             new RegInfo(0x78028B00, 0x00000000, 0x00000004, "/DEVENV/TOOL/pa_debug"),
             new RegInfo(0x78028C00, 0x00000000, 0x00000004, "/DEVENV/TOOL/gpu_validate"),
