@@ -25,6 +25,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x01070000, 0x00000000, 0x00000004, "/REGISTRY/bootcount"),
             new RegInfo(0x01080000, 0x00000000, 0x00000004, "/REGISTRY/lastver"),
             new RegInfo(0x01400000, 0x00000000, 0x00000004, "/REGISTRY/init_flag"),
+
             new RegInfo(0x01800000, 0x00000010, 0x00000000, "/REGISTRY/01"),
             new RegInfo(0x01810000, 0x00000010, 0x00000000, "/REGISTRY/02"),
             new RegInfo(0x01820000, 0x00000010, 0x00000000, "/REGISTRY/03"),
@@ -35,6 +36,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x01870000, 0x00000010, 0x00000000, "/REGISTRY/08"),
             new RegInfo(0x01880000, 0x00000010, 0x00000000, "/REGISTRY/09"),
             new RegInfo(0x01890000, 0x00000010, 0x00000000, "/REGISTRY/10"),
+
             new RegInfo(0x01800100, 0x00000000, 0x00000004, "/REGISTRY/01/old_ver"),
             new RegInfo(0x01810100, 0x00000000, 0x00000004, "/REGISTRY/02/old_ver"),
             new RegInfo(0x01820100, 0x00000000, 0x00000004, "/REGISTRY/03/old_ver"),
@@ -45,6 +47,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x01870100, 0x00000000, 0x00000004, "/REGISTRY/08/old_ver"),
             new RegInfo(0x01880100, 0x00000000, 0x00000004, "/REGISTRY/09/old_ver"),
             new RegInfo(0x01890100, 0x00000000, 0x00000004, "/REGISTRY/10/old_ver"),
+
             new RegInfo(0x01800200, 0x00000000, 0x00000004, "/REGISTRY/01/ver_bootcnt"),
             new RegInfo(0x01810200, 0x00000000, 0x00000004, "/REGISTRY/02/ver_bootcnt"),
             new RegInfo(0x01820200, 0x00000000, 0x00000004, "/REGISTRY/03/ver_bootcnt"),
@@ -55,6 +58,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x01870200, 0x00000000, 0x00000004, "/REGISTRY/08/ver_bootcnt"),
             new RegInfo(0x01880200, 0x00000000, 0x00000004, "/REGISTRY/09/ver_bootcnt"),
             new RegInfo(0x01890200, 0x00000000, 0x00000004, "/REGISTRY/10/ver_bootcnt"),
+
             new RegInfo(0x02000000, 0x00000010, 0x00000000, "/SYSTEM"),
             new RegInfo(0x02010000, 0x00000000, 0x00000004, "/SYSTEM/update_mode"),
             new RegInfo(0x02020000, 0x00000000, 0x00000004, "/SYSTEM/language"),
@@ -70,6 +74,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x020E0000, 0x00000000, 0x00000004, "/SYSTEM/game_rec_mode"),
             new RegInfo(0x020F0000, 0x00000000, 0x00000004, "/SYSTEM/shell_function"),
             new RegInfo(0x02100000, 0x00000000, 0x00000004, "/SYSTEM/pad_connection"),
+
             new RegInfo(0x02800000, 0x00000010, 0x00000000, "/SYSTEM/UPDATE"),
             new RegInfo(0x02800100, 0x00000001, 0x00000200, "/SYSTEM/UPDATE/server_url"),
             new RegInfo(0x02800200, 0x00000000, 0x00000004, "/SYSTEM/UPDATE/eula_version"),
@@ -87,6 +92,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x02808200, 0x00000001, 0x00000200, "/SYSTEM/UPDATE/server_url_beta"),
             new RegInfo(0x02808300, 0x00000000, 0x00000004, "/SYSTEM/UPDATE/check_limit"),
             new RegInfo(0x02808400, 0x00000000, 0x00000004, "/SYSTEM/UPDATE/ignore_entcheck"),
+
             new RegInfo(0x02820000, 0x00000010, 0x00000000, "/SYSTEM/POWER"),
             new RegInfo(0x02820100, 0x00000000, 0x00000004, "/SYSTEM/POWER/charge"),
             new RegInfo(0x02820200, 0x00000000, 0x00000004, "/SYSTEM/POWER/signin"),
@@ -99,29 +105,38 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x02820900, 0x00000002, 0x00000008, "/SYSTEM/POWER/standby_start"),
             new RegInfo(0x02820B00, 0x00000000, 0x00000004, "/SYSTEM/POWER/power_history"),
             new RegInfo(0x02820C00, 0x00000000, 0x00000004, "/SYSTEM/POWER/spwakeup"),
+
             new RegInfo(0x02840000, 0x00000010, 0x00000000, "/SYSTEM/NOTIFICATION"),
             new RegInfo(0x02840100, 0x00000000, 0x00000004, "/SYSTEM/NOTIFICATION/invisible_items"),
+
             new RegInfo(0x02780000, 0x00000010, 0x00000000, "/SYSTEM/ACTIVATION"),
             new RegInfo(0x02780100, 0x00000000, 0x00000004, "/SYSTEM/ACTIVATION/mpeg2"),
             new RegInfo(0x02780200, 0x00000000, 0x00000004, "/SYSTEM/ACTIVATION/vc1"),
             new RegInfo(0x02780300, 0x00000000, 0x00000004, "/SYSTEM/ACTIVATION/hevc"),
+
             new RegInfo(0x02860000, 0x00000010, 0x00000000, "/SYSTEM/SPECIFIC"),
             new RegInfo(0x02860100, 0x00000000, 0x00000004, "/SYSTEM/SPECIFIC/idu_mode"),
             new RegInfo(0x02860200, 0x00000000, 0x00000004, "/SYSTEM/SPECIFIC/show_mode"),
             new RegInfo(0x02860300, 0x00000000, 0x00000004, "/SYSTEM/SPECIFIC/arcade_mode"),
             new RegInfo(0x02860500, 0x00000001, 0x00000028, "/SYSTEM/SPECIFIC/arcade_id"),
+
             new RegInfo(0x02880000, 0x00000010, 0x00000000, "/SYSTEM/DOWNLOAD"),
             new RegInfo(0x02880100, 0x00000000, 0x00000004, "/SYSTEM/DOWNLOAD/autodl_featured"),
+
             new RegInfo(0x02900000, 0x00000010, 0x00000000, "/SYSTEM/DB"),
             new RegInfo(0x02900100, 0x00000000, 0x00000004, "/SYSTEM/DB/default_player"),
+
             new RegInfo(0x02A00000, 0x00000010, 0x00000000, "/SYSTEM/BGDC"),
             new RegInfo(0x02A00100, 0x00000001, 0x0000001E, "/SYSTEM/BGDC/last_modified"),
             new RegInfo(0x02A08000, 0x00000001, 0x00000200, "/SYSTEM/BGDC/server_url"),
+
             new RegInfo(0x02B00000, 0x00000010, 0x00000000, "/SYSTEM/SELF"),
             new RegInfo(0x02B00100, 0x00000000, 0x00000004, "/SYSTEM/SELF/verr_count"),
             new RegInfo(0x02B00200, 0x00000000, 0x00000004, "/SYSTEM/SELF/ierr_count"),
+
             new RegInfo(0x02B40000, 0x00000010, 0x00000000, "/SYSTEM/WCTL"),
             new RegInfo(0x02B40100, 0x00000001, 0x00000011, "/SYSTEM/WCTL/server_env"),
+
             new RegInfo(0x03800000, 0x00000010, 0x00000000, "/SECURITY/PARENTAL"),
             new RegInfo(0x03800100, 0x00000000, 0x00000004, "/SECURITY/PARENTAL/game"),
             new RegInfo(0x03800200, 0x00000000, 0x00000004, "/SECURITY/PARENTAL/bd"),
@@ -132,6 +147,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x03800700, 0x00000000, 0x00000004, "/SECURITY/PARENTAL/create_account"),
             new RegInfo(0x03800800, 0x00000001, 0x00000010, "/SECURITY/PARENTAL/passcode"),
             new RegInfo(0x03800900, 0x00000000, 0x00000004, "/SECURITY/PARENTAL/morpheus"),
+
             new RegInfo(0x05000000, 0x00000010, 0x00000000, "/DATE"),
             new RegInfo(0x05010000, 0x00000000, 0x00000004, "/DATE/time_zone"),
             new RegInfo(0x05020000, 0x00000000, 0x00000004, "/DATE/date_format"),
@@ -149,6 +165,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x05800000, 0x00000001, 0x00000010, "/DATE/fake_geoip"),
             new RegInfo(0x05810000, 0x00000000, 0x00000004, "/DATE/use_test_cdn"),
             new RegInfo(0x05820000, 0x00000001, 0x00000008, "/DATE/testserver_slot"),
+
             new RegInfo(0x07000000, 0x00000010, 0x00000000, "/USER"),
             new RegInfo(0x07010000, 0x00000000, 0x00000004, "/USER/auto_login_user"),
             new RegInfo(0x07020000, 0x00000000, 0x00000004, "/USER/max_used_home_u"),
@@ -159,6 +176,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x07070000, 0x00000000, 0x00000004, "/USER/cumulative_user"),
             new RegInfo(0x07400000, 0x00000000, 0x00000004, "/USER/disp_acc_info"),
             new RegInfo(0x07410000, 0x00000000, 0x00000004, "/USER/new_user_group"),
+
             new RegInfo(0x09000000, 0x00000010, 0x00000000, "/ACCESSIBILITY"),
             new RegInfo(0x09010000, 0x00000000, 0x00000004, "/ACCESSIBILITY/invert_color"),
             new RegInfo(0x09020000, 0x00000000, 0x00000004, "/ACCESSIBILITY/large_text"),
@@ -171,6 +189,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x09400200, 0x00000000, 0x00000004, "/ACCESSIBILITY/TTS/speed"),
             new RegInfo(0x09400300, 0x00000000, 0x00000004, "/ACCESSIBILITY/TTS/volume"),
             new RegInfo(0x09400400, 0x00000000, 0x00000004, "/ACCESSIBILITY/TTS/readout"),
+
             new RegInfo(0x09C00000, 0x00000010, 0x00000000, "/ACCESSIBILITY/DEBUG"),
             new RegInfo(0x09C00100, 0x00000000, 0x00000004, "/ACCESSIBILITY/DEBUG/text_to_speech"),
             new RegInfo(0x09C00200, 0x00000000, 0x00000004, "/ACCESSIBILITY/DEBUG/large_text"),
@@ -178,6 +197,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x09C04000, 0x00000000, 0x00000004, "/ACCESSIBILITY/DEBUG/speech_tag"),
             new RegInfo(0x09C04100, 0x00000000, 0x00000004, "/ACCESSIBILITY/DEBUG/use_ext_tts_dic"),
             new RegInfo(0x09C04200, 0x00000000, 0x00000004, "/ACCESSIBILITY/DEBUG/tts_debug_log"),
+
             new RegInfo(0x0A000000, 0x00000010, 0x00000000, "/VIDEOOUT"),
             new RegInfo(0x0A030000, 0x00000000, 0x00000004, "/VIDEOOUT/mode"),
             new RegInfo(0x0A040000, 0x00000000, 0x00000004, "/VIDEOOUT/color_depth"),
@@ -191,6 +211,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x0A110000, 0x00000000, 0x00000004, "/VIDEOOUT/hdcp_off_mode"),
             new RegInfo(0x0A120000, 0x00000000, 0x00000004, "/VIDEOOUT/setting_options"),
             new RegInfo(0x0A320000, 0x00000000, 0x00000004, "/VIDEOOUT/disable_hdcp"),
+
             new RegInfo(0x0B000000, 0x00000010, 0x00000000, "/AUDIOOUT"),
             new RegInfo(0x0B010000, 0x00000000, 0x00000004, "/AUDIOOUT/mode"),
             new RegInfo(0x0B030000, 0x00000000, 0x00000004, "/AUDIOOUT/headphone_out"),
@@ -202,6 +223,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x0B090000, 0x00000000, 0x00000004, "/AUDIOOUT/config_options"),
             new RegInfo(0x0B800000, 0x00000000, 0x00000004, "/AUDIOOUT/measure_enable"),
             new RegInfo(0x0B810000, 0x00000000, 0x00000004, "/AUDIOOUT/run_options"),
+
             new RegInfo(0x0B400100, 0x00000010, 0x00000000, "/AUDIOOUT/VOLUME/LEVEL/01"),
             new RegInfo(0x0B400200, 0x00000010, 0x00000000, "/AUDIOOUT/VOLUME/LEVEL/02"),
             new RegInfo(0x0B400300, 0x00000010, 0x00000000, "/AUDIOOUT/VOLUME/LEVEL/03"),
@@ -222,6 +244,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x0B401200, 0x00000010, 0x00000000, "/AUDIOOUT/VOLUME/LEVEL/18"),
             new RegInfo(0x0B401300, 0x00000010, 0x00000000, "/AUDIOOUT/VOLUME/LEVEL/19"),
             new RegInfo(0x0B401400, 0x00000010, 0x00000000, "/AUDIOOUT/VOLUME/LEVEL/20"),
+
             new RegInfo(0x0B400101, 0x00000002, 0x00000020, "/AUDIOOUT/VOLUME/LEVEL/01/data"),
             new RegInfo(0x0B400201, 0x00000002, 0x00000020, "/AUDIOOUT/VOLUME/LEVEL/02/data"),
             new RegInfo(0x0B400301, 0x00000002, 0x00000020, "/AUDIOOUT/VOLUME/LEVEL/03/data"),
@@ -242,8 +265,10 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x0B401201, 0x00000002, 0x00000020, "/AUDIOOUT/VOLUME/LEVEL/18/data"),
             new RegInfo(0x0B401301, 0x00000002, 0x00000020, "/AUDIOOUT/VOLUME/LEVEL/19/data"),
             new RegInfo(0x0B401401, 0x00000002, 0x00000020, "/AUDIOOUT/VOLUME/LEVEL/20/data"),
+
             new RegInfo(0x0C000000, 0x00000010, 0x00000000, "/AUDIOIN"),
             new RegInfo(0x0C010000, 0x00000002, 0x00000008, "/AUDIOIN/asyncsrc_val0"),
+
             new RegInfo(0x0C400100, 0x00000010, 0x00000000, "/AUDIOIN/MIC/LEVEL/01"),
             new RegInfo(0x0C400200, 0x00000010, 0x00000000, "/AUDIOIN/MIC/LEVEL/02"),
             new RegInfo(0x0C400300, 0x00000010, 0x00000000, "/AUDIOIN/MIC/LEVEL/03"),
@@ -264,6 +289,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x0C401200, 0x00000010, 0x00000000, "/AUDIOIN/MIC/LEVEL/18"),
             new RegInfo(0x0C401300, 0x00000010, 0x00000000, "/AUDIOIN/MIC/LEVEL/19"),
             new RegInfo(0x0C401400, 0x00000010, 0x00000000, "/AUDIOIN/MIC/LEVEL/20"),
+
             new RegInfo(0x0C400101, 0x00000002, 0x00000020, "/AUDIOIN/MIC/LEVEL/01/mic_level"),
             new RegInfo(0x0C400201, 0x00000002, 0x00000020, "/AUDIOIN/MIC/LEVEL/02/mic_level"),
             new RegInfo(0x0C400301, 0x00000002, 0x00000020, "/AUDIOIN/MIC/LEVEL/03/mic_level"),
@@ -284,6 +310,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x0C401201, 0x00000002, 0x00000020, "/AUDIOIN/MIC/LEVEL/18/mic_level"),
             new RegInfo(0x0C401301, 0x00000002, 0x00000020, "/AUDIOIN/MIC/LEVEL/19/mic_level"),
             new RegInfo(0x0C401401, 0x00000002, 0x00000020, "/AUDIOIN/MIC/LEVEL/20/mic_level"),
+
             new RegInfo(0x12010000, 0x00000010, 0x00000000, "/BT/01"),
             new RegInfo(0x12020000, 0x00000010, 0x00000000, "/BT/02"),
             new RegInfo(0x12030000, 0x00000010, 0x00000000, "/BT/03"),
@@ -316,6 +343,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x121E0000, 0x00000010, 0x00000000, "/BT/30"),
             new RegInfo(0x121F0000, 0x00000010, 0x00000000, "/BT/31"),
             new RegInfo(0x12200000, 0x00000010, 0x00000000, "/BT/32"),
+
             new RegInfo(0x12010100, 0x00000002, 0x000003E8, "/BT/01/info"),
             new RegInfo(0x12020100, 0x00000002, 0x000003E8, "/BT/02/info"),
             new RegInfo(0x12030100, 0x00000002, 0x000003E8, "/BT/03/info"),
@@ -348,6 +376,18 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x121E0100, 0x00000002, 0x000003E8, "/BT/30/info"),
             new RegInfo(0x121F0100, 0x00000002, 0x000003E8, "/BT/31/info"),
             new RegInfo(0x12200100, 0x00000002, 0x000003E8, "/BT/32/info"),
+
+            new RegInfo(0x14000000, 0x00000010, 0x00000000, "/NET"),
+            new RegInfo(0x14700000, 0x00000001, 0x00000010, "/NET/dbg_ip_address"),
+            new RegInfo(0x14710000, 0x00000001, 0x00000010, "/NET/dbg_netmask"),
+            new RegInfo(0x14740000, 0x00000001, 0x00000010, "/NET/dbg_route"),
+            new RegInfo(0x14750000, 0x00000001, 0x00000010, "/NET/dbg_route_mask"),
+            new RegInfo(0x14760000, 0x00000001, 0x00000010, "/NET/dbg_gateway"),
+            new RegInfo(0x14770000, 0x00000000, 0x00000004, "/NET/dbg_ip_config"),
+            new RegInfo(0x14780000, 0x00000001, 0x00000100, "/NET/dbg_dhcp_hname"),
+            new RegInfo(0x14790000, 0x00000000, 0x00000004, "/NET/emulation_type"),
+            new RegInfo(0x147A0000, 0x00000000, 0x00000004, "/NET/always_lan"),
+
             new RegInfo(0x14140000, 0x00000010, 0x00000000, "/NET/IP"),
             new RegInfo(0x14140100, 0x00000001, 0x00000010, "/NET/IP/ip_address"),
             new RegInfo(0x14140200, 0x00000001, 0x00000010, "/NET/IP/netmask"),
@@ -361,6 +401,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14140D00, 0x00000001, 0x00000080, "/NET/IP/auth_key"),
             new RegInfo(0x14140E00, 0x00000001, 0x00000010, "/NET/IP/leased_ip"),
             new RegInfo(0x14140F00, 0x00000002, 0x00000008, "/NET/IP/leased_exp_tick"),
+
             new RegInfo(0x14190000, 0x00000010, 0x00000000, "/NET/COMMON"),
             new RegInfo(0x14190100, 0x00000000, 0x00000004, "/NET/COMMON/device"),
             new RegInfo(0x14190600, 0x00000000, 0x00000004, "/NET/COMMON/net_flag"),
@@ -368,6 +409,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14190800, 0x00000000, 0x00000004, "/NET/COMMON/mtu"),
             new RegInfo(0x14190900, 0x00000000, 0x00000004, "/NET/COMMON/ether_mode"),
             new RegInfo(0x14190A00, 0x00000000, 0x00000004, "/NET/COMMON/ap_auto_config"),
+
             new RegInfo(0x141E0000, 0x00000010, 0x00000000, "/NET/WIFI"),
             new RegInfo(0x141E0100, 0x00000001, 0x00000021, "/NET/WIFI/ssid"),
             new RegInfo(0x141E0200, 0x00000000, 0x00000004, "/NET/WIFI/wifi_security"),
@@ -393,6 +435,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x141E8001, 0x00000000, 0x00000004, "/NET/WIFI/APP/http_proxy_flag"),
             new RegInfo(0x141E8002, 0x00000001, 0x00000100, "/NET/WIFI/APP/http_proxy_svr"),
             new RegInfo(0x141E8003, 0x00000000, 0x00000004, "/NET/WIFI/APP/http_proxy_port"),
+
             new RegInfo(0x14230000, 0x00000010, 0x00000000, "/NET/AOSS"),
             new RegInfo(0x14230100, 0x00000001, 0x00000021, "/NET/AOSS/wpa_aes_ssid"),
             new RegInfo(0x14230200, 0x00000001, 0x00000021, "/NET/AOSS/wpa_tkip_ssid"),
@@ -402,20 +445,24 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14230600, 0x00000001, 0x00000041, "/NET/AOSS/wpa_tkip_key"),
             new RegInfo(0x14230700, 0x00000001, 0x0000001B, "/NET/AOSS/wep128_key"),
             new RegInfo(0x14230800, 0x00000001, 0x0000001B, "/NET/AOSS/wep64_key"),
+
             new RegInfo(0x14280000, 0x00000010, 0x00000000, "/NET/APP"),
             new RegInfo(0x14280100, 0x00000000, 0x00000004, "/NET/APP/http_proxy_flag"),
             new RegInfo(0x14280200, 0x00000001, 0x00000100, "/NET/APP/http_proxy_svr"),
             new RegInfo(0x14280300, 0x00000000, 0x00000004, "/NET/APP/http_proxy_port"),
             new RegInfo(0x14288000, 0x00000000, 0x00000004, "/NET/APP/ssl_cert_ignore"),
             new RegInfo(0x14288100, 0x00000000, 0x00000004, "/NET/APP/ssl_psn_trace"),
+
             new RegInfo(0x142D0000, 0x00000010, 0x00000000, "/NET/AP"),
             new RegInfo(0x142D0100, 0x00000000, 0x00000004, "/NET/AP/ap_flag"),
             new RegInfo(0x142D0200, 0x00000001, 0x00000021, "/NET/AP/ssid"),
             new RegInfo(0x142D0300, 0x00000001, 0x00000041, "/NET/AP/wpa_key"),
             new RegInfo(0x142D0400, 0x00000000, 0x00000004, "/NET/AP/channel"),
+
             new RegInfo(0x142E0000, 0x00000010, 0x00000000, "/NET/GAME_AP"),
             new RegInfo(0x142E0100, 0x00000001, 0x00000041, "/NET/GAME_AP/wpa_key"),
             new RegInfo(0x142E0200, 0x00000001, 0x00000041, "/NET/GAME_AP/wpa_key_for_qa"),
+
             new RegInfo(0x14320100, 0x00000010, 0x00000000, "/NET/WIFI/CACHE/01"),
             new RegInfo(0x14320200, 0x00000010, 0x00000000, "/NET/WIFI/CACHE/02"),
             new RegInfo(0x14320300, 0x00000010, 0x00000000, "/NET/WIFI/CACHE/03"),
@@ -426,6 +473,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14320800, 0x00000010, 0x00000000, "/NET/WIFI/CACHE/08"),
             new RegInfo(0x14320900, 0x00000010, 0x00000000, "/NET/WIFI/CACHE/09"),
             new RegInfo(0x14320A00, 0x00000010, 0x00000000, "/NET/WIFI/CACHE/10"),
+
             new RegInfo(0x14320101, 0x00000001, 0x00000021, "/NET/WIFI/CACHE/01/ssid"),
             new RegInfo(0x14320201, 0x00000001, 0x00000021, "/NET/WIFI/CACHE/02/ssid"),
             new RegInfo(0x14320301, 0x00000001, 0x00000021, "/NET/WIFI/CACHE/03/ssid"),
@@ -436,6 +484,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14320801, 0x00000001, 0x00000021, "/NET/WIFI/CACHE/08/ssid"),
             new RegInfo(0x14320901, 0x00000001, 0x00000021, "/NET/WIFI/CACHE/09/ssid"),
             new RegInfo(0x14320A01, 0x00000001, 0x00000021, "/NET/WIFI/CACHE/10/ssid"),
+
             new RegInfo(0x14320102, 0x00000001, 0x0000001B, "/NET/WIFI/CACHE/01/wep_key"),
             new RegInfo(0x14320202, 0x00000001, 0x0000001B, "/NET/WIFI/CACHE/02/wep_key"),
             new RegInfo(0x14320302, 0x00000001, 0x0000001B, "/NET/WIFI/CACHE/03/wep_key"),
@@ -456,6 +505,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14320803, 0x00000001, 0x00000041, "/NET/WIFI/CACHE/08/wpa_key"),
             new RegInfo(0x14320903, 0x00000001, 0x00000041, "/NET/WIFI/CACHE/09/wpa_key"),
             new RegInfo(0x14320A03, 0x00000001, 0x00000041, "/NET/WIFI/CACHE/10/wpa_key"),
+
             new RegInfo(0x14320104, 0x00000002, 0x00000008, "/NET/WIFI/CACHE/01/time_stamp"),
             new RegInfo(0x14320204, 0x00000002, 0x00000008, "/NET/WIFI/CACHE/02/time_stamp"),
             new RegInfo(0x14320304, 0x00000002, 0x00000008, "/NET/WIFI/CACHE/03/time_stamp"),
@@ -466,16 +516,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x14320804, 0x00000002, 0x00000008, "/NET/WIFI/CACHE/08/time_stamp"),
             new RegInfo(0x14320904, 0x00000002, 0x00000008, "/NET/WIFI/CACHE/09/time_stamp"),
             new RegInfo(0x14320A04, 0x00000002, 0x00000008, "/NET/WIFI/CACHE/10/time_stamp"),
-            new RegInfo(0x14000000, 0x00000010, 0x00000000, "/NET"),
-            new RegInfo(0x14700000, 0x00000001, 0x00000010, "/NET/dbg_ip_address"),
-            new RegInfo(0x14710000, 0x00000001, 0x00000010, "/NET/dbg_netmask"),
-            new RegInfo(0x14740000, 0x00000001, 0x00000010, "/NET/dbg_route"),
-            new RegInfo(0x14750000, 0x00000001, 0x00000010, "/NET/dbg_route_mask"),
-            new RegInfo(0x14760000, 0x00000001, 0x00000010, "/NET/dbg_gateway"),
-            new RegInfo(0x14770000, 0x00000000, 0x00000004, "/NET/dbg_ip_config"),
-            new RegInfo(0x14780000, 0x00000001, 0x00000100, "/NET/dbg_dhcp_hname"),
-            new RegInfo(0x14790000, 0x00000000, 0x00000004, "/NET/emulation_type"),
-            new RegInfo(0x147A0000, 0x00000000, 0x00000004, "/NET/always_lan"),
+
             new RegInfo(0x19000000, 0x00000010, 0x00000000, "/NP"),
             new RegInfo(0x19010000, 0x00000000, 0x00000004, "/NP/patch_auto_dl"),
             new RegInfo(0x19800000, 0x00000001, 0x00000011, "/NP/env"),
@@ -512,12 +553,16 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x199F0000, 0x00000001, 0x00000006, "/NP/dailymotion_lng"),
             new RegInfo(0x19A00000, 0x00000000, 0x00000004, "/NP/diskcache_quota"),
             new RegInfo(0x19A10000, 0x00000000, 0x00000004, "/NP/fake_dispname"),
+            new RegInfo(0x19A20000, 0x00000001, 0x00000100, "/NP/deathstar_url"),
+
             new RegInfo(0x1E000000, 0x00000010, 0x00000000, "/CAMERA"),
             new RegInfo(0x1E010000, 0x00000002, 0x00000400, "/CAMERA/camera_hw_info"),
             new RegInfo(0x1E020000, 0x00000000, 0x00000004, "/CAMERA/mute_mic"),
+
             new RegInfo(0x20000000, 0x00000010, 0x00000000, "/VRTRACKER"),
             new RegInfo(0x20010000, 0x00000002, 0x00000400, "/VRTRACKER/vrtracker_info"),
             new RegInfo(0x20800000, 0x00000000, 0x00000004, "/VRTRACKER/green_ds4_track"),
+
             new RegInfo(0x23000000, 0x00000010, 0x00000000, "/BDDVD"),
             new RegInfo(0x23010000, 0x00000000, 0x00000004, "/BDDVD/bd_menu_lang"),
             new RegInfo(0x23020000, 0x00000000, 0x00000004, "/BDDVD/bd_sound_lang"),
@@ -532,8 +577,10 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x230B0000, 0x00000000, 0x00000004, "/BDDVD/dvd_sound_lang"),
             new RegInfo(0x230C0000, 0x00000000, 0x00000004, "/BDDVD/dvd_cap_lang"),
             new RegInfo(0x230D0000, 0x00000000, 0x00000004, "/BDDVD/sound_format"),
+
             new RegInfo(0x2A000000, 0x00000010, 0x00000000, "/EVENT"),
             new RegInfo(0x2A010000, 0x00000002, 0x00000020, "/EVENT/auto_boot_tick"),
+
             new RegInfo(0x32000000, 0x00000010, 0x00000000, "/GLS"),
             new RegInfo(0x32010000, 0x00000000, 0x00000004, "/GLS/bc_mode"),
             new RegInfo(0x32020000, 0x00000000, 0x00000004, "/GLS/social_mode"),
@@ -547,6 +594,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x32870000, 0x00000001, 0x00000100, "/GLS/debug_info_url"),
             new RegInfo(0x32880000, 0x00000001, 0x00000100, "/GLS/emb_svr_ur"),
             new RegInfo(0x32890000, 0x00000000, 0x00000004, "/GLS/live_quality_d"),
+
             new RegInfo(0x32C80100, 0x00000010, 0x00000000, "/GLS/DUMMY_SF/01"),
             new RegInfo(0x32C80200, 0x00000010, 0x00000000, "/GLS/DUMMY_SF/02"),
             new RegInfo(0x32C80300, 0x00000010, 0x00000000, "/GLS/DUMMY_SF/03"),
@@ -557,6 +605,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x32C80800, 0x00000010, 0x00000000, "/GLS/DUMMY_SF/08"),
             new RegInfo(0x32C80900, 0x00000010, 0x00000000, "/GLS/DUMMY_SF/09"),
             new RegInfo(0x32C80A00, 0x00000010, 0x00000000, "/GLS/DUMMY_SF/10"),
+
             new RegInfo(0x32C80101, 0x00000001, 0x00000100, "/GLS/DUMMY_SF/01/comment"),
             new RegInfo(0x32C80201, 0x00000001, 0x00000100, "/GLS/DUMMY_SF/02/comment"),
             new RegInfo(0x32C80301, 0x00000001, 0x00000100, "/GLS/DUMMY_SF/03/comment"),
@@ -567,6 +616,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x32C80801, 0x00000001, 0x00000100, "/GLS/DUMMY_SF/08/comment"),
             new RegInfo(0x32C80901, 0x00000001, 0x00000100, "/GLS/DUMMY_SF/09/comment"),
             new RegInfo(0x32C80A01, 0x00000001, 0x00000100, "/GLS/DUMMY_SF/10/comment"),
+
             new RegInfo(0x37000000, 0x00000010, 0x00000000, "/SHARE"),
             new RegInfo(0x37050000, 0x00000000, 0x00000004, "/SHARE/sound_mix"),
             new RegInfo(0x37060000, 0x00000000, 0x00000004, "/SHARE/rec_prohibit"),
@@ -576,20 +626,25 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x370A0000, 0x00000000, 0x00000004, "/SHARE/status"),
             new RegInfo(0x37800000, 0x00000000, 0x00000004, "/SHARE/ctr_share_range"),
             new RegInfo(0x37810000, 0x00000000, 0x00000004, "/SHARE/title_check"),
+
             new RegInfo(0x3C000000, 0x00000010, 0x00000000, "/BROWSER"),
             new RegInfo(0x3C020000, 0x00000000, 0x00000004, "/BROWSER/enable_cookie"),
             new RegInfo(0x3C030000, 0x00000000, 0x00000004, "/BROWSER/enable_js"),
             new RegInfo(0x3C040000, 0x00000000, 0x00000004, "/BROWSER/check_signup"),
+
             new RegInfo(0x3CC80000, 0x00000010, 0x00000000, "/BROWSER/DEBUG"),
             new RegInfo(0x3CC80100, 0x00000000, 0x00000004, "/BROWSER/DEBUG/calist_loadmode"),
             new RegInfo(0x3CC80200, 0x00000000, 0x00000004, "/BROWSER/DEBUG/verify_ssl"),
             new RegInfo(0x3CC80300, 0x00000000, 0x00000004, "/BROWSER/DEBUG/dfg_jit_enabled"),
             new RegInfo(0x3CC80400, 0x00000000, 0x00000004, "/BROWSER/DEBUG/net_dbg_config"),
             new RegInfo(0x3CC80500, 0x00000000, 0x00000004, "/BROWSER/DEBUG/check_iframe"),
+            new RegInfo(0x3CC80600, 0x00000000, 0x00000004, "/BROWSER/DEBUG/enable_jslog"),
+
             new RegInfo(0x41000000, 0x00000010, 0x00000000, "/REMOTEPLAY"),
             new RegInfo(0x41810000, 0x00000000, 0x00000004, "/REMOTEPLAY/rp_enable"),
             new RegInfo(0x41820000, 0x00000000, 0x00000004, "/REMOTEPLAY/ap_flag"),
             new RegInfo(0x41C00000, 0x00000000, 0x00000004, "/REMOTEPLAY/log_enable"),
+
             new RegInfo(0x41010000, 0x00000010, 0x00000000, "/REMOTEPLAY/01"),
             new RegInfo(0x41020000, 0x00000010, 0x00000000, "/REMOTEPLAY/02"),
             new RegInfo(0x41030000, 0x00000010, 0x00000000, "/REMOTEPLAY/03"),
@@ -622,6 +677,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x411E0000, 0x00000010, 0x00000000, "/REMOTEPLAY/30"),
             new RegInfo(0x411F0000, 0x00000010, 0x00000000, "/REMOTEPLAY/31"),
             new RegInfo(0x41200000, 0x00000010, 0x00000000, "/REMOTEPLAY/32"),
+
             new RegInfo(0x41010100, 0x00000000, 0x00000004, "/REMOTEPLAY/01/user_id"),
             new RegInfo(0x41020100, 0x00000000, 0x00000004, "/REMOTEPLAY/02/user_id"),
             new RegInfo(0x41030100, 0x00000000, 0x00000004, "/REMOTEPLAY/03/user_id"),
@@ -654,6 +710,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x411E0100, 0x00000000, 0x00000004, "/REMOTEPLAY/30/user_id"),
             new RegInfo(0x411F0100, 0x00000000, 0x00000004, "/REMOTEPLAY/31/user_id"),
             new RegInfo(0x41200100, 0x00000000, 0x00000004, "/REMOTEPLAY/32/user_id"),
+
             new RegInfo(0x41010200, 0x00000000, 0x00000004, "/REMOTEPLAY/01/regist_key"),
             new RegInfo(0x41020200, 0x00000000, 0x00000004, "/REMOTEPLAY/02/regist_key"),
             new RegInfo(0x41030200, 0x00000000, 0x00000004, "/REMOTEPLAY/03/regist_key"),
@@ -686,6 +743,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x411E0200, 0x00000000, 0x00000004, "/REMOTEPLAY/30/regist_key"),
             new RegInfo(0x411F0200, 0x00000000, 0x00000004, "/REMOTEPLAY/31/regist_key"),
             new RegInfo(0x41200200, 0x00000000, 0x00000004, "/REMOTEPLAY/32/regist_key"),
+
             new RegInfo(0x41010300, 0x00000002, 0x00000010, "/REMOTEPLAY/01/aes_key"),
             new RegInfo(0x41020300, 0x00000002, 0x00000010, "/REMOTEPLAY/02/aes_key"),
             new RegInfo(0x41030300, 0x00000002, 0x00000010, "/REMOTEPLAY/03/aes_key"),
@@ -718,6 +776,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x411E0300, 0x00000002, 0x00000010, "/REMOTEPLAY/30/aes_key"),
             new RegInfo(0x411F0300, 0x00000002, 0x00000010, "/REMOTEPLAY/31/aes_key"),
             new RegInfo(0x41200300, 0x00000002, 0x00000010, "/REMOTEPLAY/32/aes_key"),
+
             new RegInfo(0x41010400, 0x00000000, 0x00000004, "/REMOTEPLAY/01/client_type"),
             new RegInfo(0x41020400, 0x00000000, 0x00000004, "/REMOTEPLAY/02/client_type"),
             new RegInfo(0x41030400, 0x00000000, 0x00000004, "/REMOTEPLAY/03/client_type"),
@@ -750,6 +809,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x411E0400, 0x00000000, 0x00000004, "/REMOTEPLAY/30/client_type"),
             new RegInfo(0x411F0400, 0x00000000, 0x00000004, "/REMOTEPLAY/31/client_type"),
             new RegInfo(0x41200400, 0x00000000, 0x00000004, "/REMOTEPLAY/32/client_type"),
+
             new RegInfo(0x42800000, 0x00000010, 0x00000000, "/REMOTEPLAY2/01"),
             new RegInfo(0x42810000, 0x00000010, 0x00000000, "/REMOTEPLAY2/02"),
             new RegInfo(0x42820000, 0x00000010, 0x00000000, "/REMOTEPLAY2/03"),
@@ -766,6 +826,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x428D0000, 0x00000010, 0x00000000, "/REMOTEPLAY2/14"),
             new RegInfo(0x428E0000, 0x00000010, 0x00000000, "/REMOTEPLAY2/15"),
             new RegInfo(0x428F0000, 0x00000010, 0x00000000, "/REMOTEPLAY2/16"),
+
             new RegInfo(0x42800100, 0x00000000, 0x00000004, "/REMOTEPLAY2/01/user_id"),
             new RegInfo(0x42810100, 0x00000000, 0x00000004, "/REMOTEPLAY2/02/user_id"),
             new RegInfo(0x42820100, 0x00000000, 0x00000004, "/REMOTEPLAY2/03/user_id"),
@@ -782,6 +843,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x428D0100, 0x00000000, 0x00000004, "/REMOTEPLAY2/14/user_id"),
             new RegInfo(0x428E0100, 0x00000000, 0x00000004, "/REMOTEPLAY2/15/user_id"),
             new RegInfo(0x428F0100, 0x00000000, 0x00000004, "/REMOTEPLAY2/16/user_id"),
+
             new RegInfo(0x42800200, 0x00000000, 0x00000004, "/REMOTEPLAY2/01/regist_key"),
             new RegInfo(0x42810200, 0x00000000, 0x00000004, "/REMOTEPLAY2/02/regist_key"),
             new RegInfo(0x42820200, 0x00000000, 0x00000004, "/REMOTEPLAY2/03/regist_key"),
@@ -798,6 +860,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x428D0200, 0x00000000, 0x00000004, "/REMOTEPLAY2/14/regist_key"),
             new RegInfo(0x428E0200, 0x00000000, 0x00000004, "/REMOTEPLAY2/15/regist_key"),
             new RegInfo(0x428F0200, 0x00000000, 0x00000004, "/REMOTEPLAY2/16/regist_key"),
+
             new RegInfo(0x42800300, 0x00000002, 0x00000010, "/REMOTEPLAY2/01/aes_key"),
             new RegInfo(0x42810300, 0x00000002, 0x00000010, "/REMOTEPLAY2/02/aes_key"),
             new RegInfo(0x42820300, 0x00000002, 0x00000010, "/REMOTEPLAY2/03/aes_key"),
@@ -814,6 +877,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x428D0300, 0x00000002, 0x00000010, "/REMOTEPLAY2/14/aes_key"),
             new RegInfo(0x428E0300, 0x00000002, 0x00000010, "/REMOTEPLAY2/15/aes_key"),
             new RegInfo(0x428F0300, 0x00000002, 0x00000010, "/REMOTEPLAY2/16/aes_key"),
+
             new RegInfo(0x42800400, 0x00000000, 0x00000004, "/REMOTEPLAY2/01/client_type"),
             new RegInfo(0x42810400, 0x00000000, 0x00000004, "/REMOTEPLAY2/02/client_type"),
             new RegInfo(0x42820400, 0x00000000, 0x00000004, "/REMOTEPLAY2/03/client_type"),
@@ -830,6 +894,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x428D0400, 0x00000000, 0x00000004, "/REMOTEPLAY2/14/client_type"),
             new RegInfo(0x428E0400, 0x00000000, 0x00000004, "/REMOTEPLAY2/15/client_type"),
             new RegInfo(0x428F0400, 0x00000000, 0x00000004, "/REMOTEPLAY2/16/client_type"),
+
             new RegInfo(0x44000000, 0x00000010, 0x00000000, "/SHAREPLAY"),
             new RegInfo(0x44800000, 0x00000000, 0x00000004, "/SHAREPLAY/mode"),
             new RegInfo(0x44810000, 0x00000000, 0x00000004, "/SHAREPLAY/ip_direct"),
@@ -843,18 +908,23 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x44890000, 0x00000000, 0x00000004, "/SHAREPLAY/age_check"),
             new RegInfo(0x448A0000, 0x00000000, 0x00000004, "/SHAREPLAY/gav_check"),
             new RegInfo(0x448B0000, 0x00000000, 0x00000004, "/SHAREPLAY/fake_time_limit"),
+
             new RegInfo(0x45000000, 0x00000010, 0x00000000, "/PARTY"),
             new RegInfo(0x45010000, 0x00000000, 0x00000004, "/PARTY/volume_down"),
             new RegInfo(0x45020000, 0x00000000, 0x00000004, "/PARTY/voice_priority"),
             new RegInfo(0x45030000, 0x00000000, 0x00000004, "/PARTY/upstream_bandw"),
+
             new RegInfo(0x55000000, 0x00000010, 0x00000000, "/PLAYTOGETHER"),
             new RegInfo(0x55010000, 0x00000000, 0x00000004, "/PLAYTOGETHER/game_played"),
+
             new RegInfo(0x5A000000, 0x00000010, 0x00000000, "/SYSCORE"),
             new RegInfo(0x5A020000, 0x00000000, 0x00000004, "/SYSCORE/shell_watch_dog"),
+
             new RegInfo(0x64000000, 0x00000010, 0x00000000, "/COMPANION"),
             new RegInfo(0x64010000, 0x00000000, 0x00000004, "/COMPANION/dbg_launch_mode"),
             new RegInfo(0x64020000, 0x00000000, 0x00000004, "/COMPANION/dbg_ip_chk_flg"),
             new RegInfo(0x64030000, 0x00000000, 0x00000004, "/COMPANION/user_bind_mode"),
+
             new RegInfo(0x64800000, 0x00000010, 0x00000000, "/COMPANION/01"),
             new RegInfo(0x64810000, 0x00000010, 0x00000000, "/COMPANION/02"),
             new RegInfo(0x64820000, 0x00000010, 0x00000000, "/COMPANION/03"),
@@ -871,6 +941,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x648D0000, 0x00000010, 0x00000000, "/COMPANION/14"),
             new RegInfo(0x648E0000, 0x00000010, 0x00000000, "/COMPANION/15"),
             new RegInfo(0x648F0000, 0x00000010, 0x00000000, "/COMPANION/16"),
+
             new RegInfo(0x64800100, 0x00000001, 0x00000011, "/COMPANION/01/model"),
             new RegInfo(0x64810100, 0x00000001, 0x00000011, "/COMPANION/02/model"),
             new RegInfo(0x64820100, 0x00000001, 0x00000011, "/COMPANION/03/model"),
@@ -887,6 +958,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x648D0100, 0x00000001, 0x00000011, "/COMPANION/14/model"),
             new RegInfo(0x648E0100, 0x00000001, 0x00000011, "/COMPANION/15/model"),
             new RegInfo(0x648F0100, 0x00000001, 0x00000011, "/COMPANION/16/model"),
+
             new RegInfo(0x64800200, 0x00000002, 0x00000006, "/COMPANION/01/mac_address"),
             new RegInfo(0x64810200, 0x00000002, 0x00000006, "/COMPANION/02/mac_address"),
             new RegInfo(0x64820200, 0x00000002, 0x00000006, "/COMPANION/03/mac_address"),
@@ -903,6 +975,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x648D0200, 0x00000002, 0x00000006, "/COMPANION/14/mac_address"),
             new RegInfo(0x648E0200, 0x00000002, 0x00000006, "/COMPANION/15/mac_address"),
             new RegInfo(0x648F0200, 0x00000002, 0x00000006, "/COMPANION/16/mac_address"),
+
             new RegInfo(0x64800300, 0x00000002, 0x00000008, "/COMPANION/01/reg_date"),
             new RegInfo(0x64810300, 0x00000002, 0x00000008, "/COMPANION/02/reg_date"),
             new RegInfo(0x64820300, 0x00000002, 0x00000008, "/COMPANION/03/reg_date"),
@@ -919,10 +992,12 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x648D0300, 0x00000002, 0x00000008, "/COMPANION/14/reg_date"),
             new RegInfo(0x648E0300, 0x00000002, 0x00000008, "/COMPANION/15/reg_date"),
             new RegInfo(0x648F0300, 0x00000002, 0x00000008, "/COMPANION/16/reg_date"),
+
             new RegInfo(0x46010000, 0x00000010, 0x00000000, "/MUSIC/MUSIC/APP"),
             new RegInfo(0x46010100, 0x00000000, 0x00000004, "/MUSIC/MUSIC/APP/repeat_mode"),
             new RegInfo(0x46010200, 0x00000000, 0x00000004, "/MUSIC/MUSIC/APP/shuffle_mode"),
             new RegInfo(0x46010300, 0x00000000, 0x00000004, "/MUSIC/MUSIC/APP/audio_balance"),
+
             new RegInfo(0x49000000, 0x00000010, 0x00000000, "/VIDEOPLAYER"),
             new RegInfo(0x49010000, 0x00000000, 0x00000004, "/VIDEOPLAYER/1080_24p"),
             new RegInfo(0x49020000, 0x00000010, 0x00000000, "/VIDEOPLAYER/CC"),
@@ -938,13 +1013,17 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x49020A00, 0x00000000, 0x00000004, "/VIDEOPLAYER/CC/char_bg_opacity"),
             new RegInfo(0x49020B00, 0x00000000, 0x00000004, "/VIDEOPLAYER/CC/window_color"),
             new RegInfo(0x49020C00, 0x00000000, 0x00000004, "/VIDEOPLAYER/CC/window_opacity"),
+
             new RegInfo(0x4B000000, 0x00000010, 0x00000000, "/VIDEOEDIT"),
             new RegInfo(0x4B010000, 0x00000000, 0x00000004, "/VIDEOEDIT/first_time_act"),
+
             new RegInfo(0x4E000000, 0x00000010, 0x00000000, "/MUSICUNLIMITED"),
             new RegInfo(0x4E800000, 0x00000001, 0x00000200, "/MUSICUNLIMITED/debug_url"),
+
             new RegInfo(0x4F000000, 0x00000010, 0x00000000, "/PRJSP"),
             new RegInfo(0x4F010000, 0x00000000, 0x00000004, "/PRJSP/app_installed"),
             new RegInfo(0x4F800000, 0x00000000, 0x00000004, "/PRJSP/enable_zeroconf"),
+
             new RegInfo(0x4F400100, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/01"),
             new RegInfo(0x4F400200, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/02"),
             new RegInfo(0x4F400300, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/03"),
@@ -955,7 +1034,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x4F400800, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/08"),
             new RegInfo(0x4F400900, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/09"),
             new RegInfo(0x4F400A00, 0x00000010, 0x00000000, "/PRJSP/WAKEUP/AUTH/10"),
-            new RegInfo(0x4F400101, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/01/mac_address"),
+
             new RegInfo(0x4F400201, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/02/mac_address"),
             new RegInfo(0x4F400301, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/03/mac_address"),
             new RegInfo(0x4F400401, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/04/mac_address"),
@@ -965,6 +1044,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x4F400801, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/08/mac_address"),
             new RegInfo(0x4F400901, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/09/mac_address"),
             new RegInfo(0x4F400A01, 0x00000002, 0x00000006, "/PRJSP/WAKEUP/AUTH/10/mac_address"),
+
             new RegInfo(0x4F400102, 0x00000000, 0x00000004, "/PRJSP/WAKEUP/AUTH/01/allowed"),
             new RegInfo(0x4F400202, 0x00000000, 0x00000004, "/PRJSP/WAKEUP/AUTH/02/allowed"),
             new RegInfo(0x4F400302, 0x00000000, 0x00000004, "/PRJSP/WAKEUP/AUTH/03/allowed"),
@@ -975,6 +1055,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x4F400802, 0x00000000, 0x00000004, "/PRJSP/WAKEUP/AUTH/08/allowed"),
             new RegInfo(0x4F400902, 0x00000000, 0x00000004, "/PRJSP/WAKEUP/AUTH/09/allowed"),
             new RegInfo(0x4F400A02, 0x00000000, 0x00000004, "/PRJSP/WAKEUP/AUTH/10/allowed"),
+
             new RegInfo(0x4F400103, 0x00000002, 0x00000040, "/PRJSP/WAKEUP/AUTH/01/device_name"),
             new RegInfo(0x4F400203, 0x00000002, 0x00000040, "/PRJSP/WAKEUP/AUTH/02/device_name"),
             new RegInfo(0x4F400303, 0x00000002, 0x00000040, "/PRJSP/WAKEUP/AUTH/03/device_name"),
@@ -985,6 +1066,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x4F400803, 0x00000002, 0x00000040, "/PRJSP/WAKEUP/AUTH/08/device_name"),
             new RegInfo(0x4F400903, 0x00000002, 0x00000040, "/PRJSP/WAKEUP/AUTH/09/device_name"),
             new RegInfo(0x4F400A03, 0x00000002, 0x00000040, "/PRJSP/WAKEUP/AUTH/10/device_name"),
+
             new RegInfo(0x4F400104, 0x00000002, 0x00000008, "/PRJSP/WAKEUP/AUTH/01/last_access"),
             new RegInfo(0x4F400204, 0x00000002, 0x00000008, "/PRJSP/WAKEUP/AUTH/02/last_access"),
             new RegInfo(0x4F400304, 0x00000002, 0x00000008, "/PRJSP/WAKEUP/AUTH/03/last_access"),
@@ -995,6 +1077,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x4F400804, 0x00000002, 0x00000008, "/PRJSP/WAKEUP/AUTH/08/last_access"),
             new RegInfo(0x4F400904, 0x00000002, 0x00000008, "/PRJSP/WAKEUP/AUTH/09/last_access"),
             new RegInfo(0x4F400A04, 0x00000002, 0x00000008, "/PRJSP/WAKEUP/AUTH/10/last_access"),
+
             new RegInfo(0x50000000, 0x00000010, 0x00000000, "/PLAYGO"),
             new RegInfo(0x50010000, 0x00000001, 0x00000024, "/PLAYGO/content_id"),
             new RegInfo(0x50020000, 0x00000001, 0x00000100, "/PLAYGO/package_url"),
@@ -1003,9 +1086,11 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x50050000, 0x00000000, 0x00000004, "/PLAYGO/auto_download"),
             new RegInfo(0x50060000, 0x00000001, 0x00000100, "/PLAYGO/json_url"),
             new RegInfo(0x50070000, 0x00000001, 0x00000100, "/PLAYGO/package_ex_url"),
+
             new RegInfo(0x58600000, 0x00000010, 0x00000000, "/MORPHEUS/UPDATE"),
             new RegInfo(0x58600100, 0x00000001, 0x00000200, "/MORPHEUS/UPDATE/server_url"),
             new RegInfo(0x58600200, 0x00000000, 0x00000004, "/MORPHEUS/UPDATE/enable_upd_chk"),
+
             new RegInfo(0x58800000, 0x00000010, 0x00000000, "/MORPHEUS/DEBUG"),
             new RegInfo(0x58800100, 0x00000000, 0x00000004, "/MORPHEUS/DEBUG/demo_mode"),
             new RegInfo(0x58800200, 0x00000000, 0x00000004, "/MORPHEUS/DEBUG/debug_mode"),
@@ -1018,6 +1103,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x58800A00, 0x00000000, 0x00000004, "/MORPHEUS/DEBUG/ignore_separate"),
             new RegInfo(0x58800B00, 0x00000000, 0x00000004, "/MORPHEUS/DEBUG/dbg_launch_mode"),
             new RegInfo(0x58800C00, 0x00000000, 0x00000004, "/MORPHEUS/DEBUG/vr_capture"),
+
             new RegInfo(0x6E000000, 0x00000010, 0x00000000, "/COREDUMP"),
             new RegInfo(0x6E010000, 0x00000000, 0x00000004, "/COREDUMP/dump_mode"),
             new RegInfo(0x6E020000, 0x00000000, 0x00000004, "/COREDUMP/internal_mode"),
@@ -1028,10 +1114,12 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x6E080000, 0x00000000, 0x00000004, "/COREDUMP/sys_dump_level"),
             new RegInfo(0x6E090000, 0x00000000, 0x00000004, "/COREDUMP/gpudump"),
             new RegInfo(0x6E0A0000, 0x00000000, 0x00000004, "/COREDUMP/screenshot"),
+
             new RegInfo(0x6E800000, 0x00000010, 0x00000000, "/COREDUMP/UPLOADER"),
             new RegInfo(0x6E800100, 0x00000000, 0x00000004, "/COREDUMP/UPLOADER/enable_uploader"),
             new RegInfo(0x6E800200, 0x00000001, 0x000000FF, "/COREDUMP/UPLOADER/uploader_url"),
             new RegInfo(0x6E800300, 0x00000000, 0x00000004, "/COREDUMP/UPLOADER/auto_upload"),
+
             new RegInfo(0x70000000, 0x00000010, 0x00000000, "/CRASHREPORTING"),
             new RegInfo(0x70010000, 0x00000000, 0x00000004, "/CRASHREPORTING/enable_report"),
             new RegInfo(0x70020000, 0x00000000, 0x00000004, "/CRASHREPORTING/keep_corefiles"),
@@ -1040,6 +1128,8 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x70050000, 0x00000000, 0x00000004, "/CRASHREPORTING/attachvideoclip"),
             new RegInfo(0x70060000, 0x00000000, 0x00000004, "/CRASHREPORTING/qa_auto_send"),
             new RegInfo(0x70070000, 0x00000000, 0x00000004, "/CRASHREPORTING/fake_optload"),
+            new RegInfo(0x70090000, 0x00000000, 0x00000004, "/CRASHREPORTING/disable_beta"),
+
             new RegInfo(0x73800000, 0x00000010, 0x00000000, "/SYSTEMLOGGER/DEBUG"),
             new RegInfo(0x73800100, 0x00000001, 0x00000009, "/SYSTEMLOGGER/DEBUG/config_dir"),
             new RegInfo(0x73800200, 0x00000000, 0x00000004, "/SYSTEMLOGGER/DEBUG/user_time"),
@@ -1049,13 +1139,18 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x73800600, 0x00000001, 0x00000009, "/SYSTEMLOGGER/DEBUG/config_dir2"),
             new RegInfo(0x73800700, 0x00000001, 0x00000009, "/SYSTEMLOGGER/DEBUG/suspend_dir"),
             new RegInfo(0x73800800, 0x00000001, 0x00000009, "/SYSTEMLOGGER/DEBUG/config_dir3"),
+            new RegInfo(0x73800900, 0x00000000, 0x00000004, "/SYSTEMLOGGER/DEBUG/delivery_mode"),
+
             new RegInfo(0x76000000, 0x00000010, 0x00000000, "/PSCLOUD"),
             new RegInfo(0x76010000, 0x00000001, 0x00000100, "/PSCLOUD/gf_version"),
+
             new RegInfo(0xC0800000, 0x00000010, 0x00000000, "/FS/UFS"),
             new RegInfo(0xC0808000, 0x00000000, 0x00000004, "/FS/UFS/compat_pkg"),
+
             new RegInfo(0x78010000, 0x00000010, 0x00000000, "/DEVENV/HOST"),
             new RegInfo(0x78010100, 0x00000001, 0x00000080, "/DEVENV/HOST/devkitname"),
             new RegInfo(0x78010200, 0x00000000, 0x00000004, "/DEVENV/HOST/host_internal"),
+
             new RegInfo(0x78020000, 0x00000010, 0x00000000, "/DEVENV/TOOL"),
             new RegInfo(0x78020100, 0x00000000, 0x00000004, "/DEVENV/TOOL/dl_debug_flags"),
             new RegInfo(0x78020200, 0x00000000, 0x00000004, "/DEVENV/TOOL/region_masq"),
@@ -1099,11 +1194,19 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x7802B900, 0x00000000, 0x00000004, "/DEVENV/TOOL/expose_under_2k"),
             new RegInfo(0x7802BA00, 0x00000000, 0x00000004, "/DEVENV/TOOL/fake_neo4k_mode"),
             new RegInfo(0x7802BB00, 0x00000000, 0x00000004, "/DEVENV/TOOL/friendprof_f"),
+            new RegInfo(0x7802BC00, 0x00000000, 0x00000004, "/DEVENV/TOOL/ipmi_dbg_flags"),
+            new RegInfo(0x7802BD00, 0x00000000, 0x00000004, "/DEVENV/TOOL/loginmgr_debug"),
+            new RegInfo(0x7802BE00, 0x00000000, 0x00000004, "/DEVENV/TOOL/sys_heap_trace"),
+            new RegInfo(0x7802BF00, 0x00000000, 0x00000004, "/DEVENV/TOOL/game_intmem_dbg"),
+            new RegInfo(0x7802C000, 0x00000000, 0x00000004, "/DEVENV/TOOL/sce_module_dbg"),
+            new RegInfo(0x7802C100, 0x00000000, 0x00000004, "/DEVENV/TOOL/piglet_rt_shdrc"),
+
             new RegInfo(0x7802C800, 0x00000010, 0x00000000, "/DEVENV/TOOL/SHELLCORE"),
             new RegInfo(0x7802C801, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLCORE/boot_disable"),
             new RegInfo(0x7802C802, 0x00000001, 0x00000100, "/DEVENV/TOOL/SHELLCORE/pathname"),
             new RegInfo(0x7802C804, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLCORE/load_config"),
             new RegInfo(0x7802C805, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLCORE/host_standby_rq"),
+
             new RegInfo(0x7802C900, 0x00000010, 0x00000000, "/DEVENV/TOOL/SHELLUI"),
             new RegInfo(0x7802C901, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLUI/debug_menu"),
             new RegInfo(0x7802C914, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLUI/screenshot"),
@@ -1114,18 +1217,23 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x7802C9CA, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLUI/webprofile"),
             new RegInfo(0x7802C9CB, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLUI/webproxy"),
             new RegInfo(0x7802C9CC, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLUI/webpreference"),
+            new RegInfo(0x7802C9CD, 0x00000000, 0x00000004, "/DEVENV/TOOL/SHELLUI/fake_beta"),
+
             new RegInfo(0x7802CD00, 0x00000010, 0x00000000, "/DEVENV/TOOL/COMMONDIALOG"),
             new RegInfo(0x7802CD01, 0x00000000, 0x00000004, "/DEVENV/TOOL/COMMONDIALOG/watch_dog"),
             new RegInfo(0x7802CD02, 0x00000000, 0x00000004, "/DEVENV/TOOL/COMMONDIALOG/crash_test"),
             new RegInfo(0x7802CD03, 0x00000000, 0x00000004, "/DEVENV/TOOL/COMMONDIALOG/suspendmode"),
+
             new RegInfo(0x7802D200, 0x00000010, 0x00000000, "/DEVENV/TOOL/KEYBOARD"),
             new RegInfo(0x7802D201, 0x00000000, 0x00000004, "/DEVENV/TOOL/KEYBOARD/enable_pause"),
             new RegInfo(0x7802D202, 0x00000000, 0x00000004, "/DEVENV/TOOL/KEYBOARD/enable_printsc"),
+
             new RegInfo(0x7802DC00, 0x00000010, 0x00000000, "/DEVENV/TOOL/VOICE_RECOG"),
             new RegInfo(0x7802DC01, 0x00000000, 0x00000004, "/DEVENV/TOOL/VOICE_RECOG/auto_start"),
             new RegInfo(0x7802DC02, 0x00000000, 0x00000004, "/DEVENV/TOOL/VOICE_RECOG/term_of_command"),
             new RegInfo(0x7802DC03, 0x00000000, 0x00000004, "/DEVENV/TOOL/VOICE_RECOG/transition"),
             new RegInfo(0x7802DC04, 0x00000000, 0x00000004, "/DEVENV/TOOL/VOICE_RECOG/recording_mode"),
+
             new RegInfo(0x7802E600, 0x00000010, 0x00000000, "/DEVENV/TOOL/MONO/DEBUG"),
             new RegInfo(0x7802E601, 0x00000001, 0x00000100, "/DEVENV/TOOL/MONO/DEBUG/profiling"),
             new RegInfo(0x7802E602, 0x00000000, 0x00000004, "/DEVENV/TOOL/MONO/DEBUG/trace"),
@@ -1133,10 +1241,12 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x7802E604, 0x00000001, 0x00000190, "/DEVENV/TOOL/MONO/DEBUG/debug_option"),
             new RegInfo(0x7802E605, 0x00000000, 0x00000004, "/DEVENV/TOOL/MONO/DEBUG/use_new_gc"),
             new RegInfo(0x7802E606, 0x00000000, 0x00000004, "/DEVENV/TOOL/MONO/DEBUG/enable_full_aot"),
+
             new RegInfo(0x78030000, 0x00000010, 0x00000000, "/DEVENV/ACTIVATE"),
             new RegInfo(0x78030100, 0x00000000, 0x00000004, "/DEVENV/ACTIVATE/auto_renewal"),
             new RegInfo(0x78030200, 0x00000000, 0x00000004, "/DEVENV/ACTIVATE/prev_date"),
             new RegInfo(0x78030300, 0x00000000, 0x00000004, "/DEVENV/ACTIVATE/prev_result"),
+
             new RegInfo(0x78210000, 0x00000010, 0x00000000, "/DEVENV/SAVEDATA/01"),
             new RegInfo(0x78210100, 0x00000010, 0x00000000, "/DEVENV/SAVEDATA/02"),
             new RegInfo(0x78210200, 0x00000010, 0x00000000, "/DEVENV/SAVEDATA/03"),
@@ -1147,6 +1257,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x78210700, 0x00000010, 0x00000000, "/DEVENV/SAVEDATA/08"),
             new RegInfo(0x78210800, 0x00000010, 0x00000000, "/DEVENV/SAVEDATA/09"),
             new RegInfo(0x78210900, 0x00000010, 0x00000000, "/DEVENV/SAVEDATA/10"),
+
             new RegInfo(0x78210001, 0x00000001, 0x0000000A, "/DEVENV/SAVEDATA/01/fingerprint_tid"),
             new RegInfo(0x78210101, 0x00000001, 0x0000000A, "/DEVENV/SAVEDATA/02/fingerprint_tid"),
             new RegInfo(0x78210201, 0x00000001, 0x0000000A, "/DEVENV/SAVEDATA/03/fingerprint_tid"),
@@ -1157,6 +1268,7 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x78210701, 0x00000001, 0x0000000A, "/DEVENV/SAVEDATA/08/fingerprint_tid"),
             new RegInfo(0x78210801, 0x00000001, 0x0000000A, "/DEVENV/SAVEDATA/09/fingerprint_tid"),
             new RegInfo(0x78210901, 0x00000001, 0x0000000A, "/DEVENV/SAVEDATA/10/fingerprint_tid"),
+
             new RegInfo(0x78210002, 0x00000001, 0x00000041, "/DEVENV/SAVEDATA/01/fingerprint"),
             new RegInfo(0x78210102, 0x00000001, 0x00000041, "/DEVENV/SAVEDATA/02/fingerprint"),
             new RegInfo(0x78210202, 0x00000001, 0x00000041, "/DEVENV/SAVEDATA/03/fingerprint"),
@@ -1167,12 +1279,14 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x78210702, 0x00000001, 0x00000041, "/DEVENV/SAVEDATA/08/fingerprint"),
             new RegInfo(0x78210802, 0x00000001, 0x00000041, "/DEVENV/SAVEDATA/09/fingerprint"),
             new RegInfo(0x78210902, 0x00000001, 0x00000041, "/DEVENV/SAVEDATA/10/fingerprint"),
+
             new RegInfo(0x78400000, 0x00000010, 0x00000000, "/DEVENV/QA"),
             new RegInfo(0x78408000, 0x00000000, 0x00000004, "/DEVENV/QA/eapcrash"),
             new RegInfo(0x78408100, 0x00000000, 0x00000004, "/DEVENV/QA/auto_test_type"),
             new RegInfo(0x78408200, 0x00000000, 0x00000004, "/DEVENV/QA/error_masq"),
             new RegInfo(0x78408300, 0x00000000, 0x00000004, "/DEVENV/QA/disable_bg_wave"),
             new RegInfo(0x78408400, 0x00000000, 0x00000004, "/DEVENV/QA/enable_exthdd"),
+
             new RegInfo(0x78400100, 0x00000010, 0x00000000, "/DEVENV/QA/GAME"),
             new RegInfo(0x78400101, 0x00000000, 0x00000004, "/DEVENV/QA/GAME/sd_fake_space"),
             new RegInfo(0x78400102, 0x00000000, 0x00000004, "/DEVENV/QA/GAME/sd_fake_owner"),
@@ -1185,9 +1299,12 @@ namespace Ps4EditLib.PsRegistry
             new RegInfo(0x7840010A, 0x00000000, 0x00000004, "/DEVENV/QA/GAME/sd_format"),
             new RegInfo(0x7840010B, 0x00000000, 0x00000004, "/DEVENV/QA/GAME/skip_asm_for_ac"),
             new RegInfo(0x7840010C, 0x00000000, 0x00000004, "/DEVENV/QA/GAME/game_rec_target"),
+            new RegInfo(0x7840010D, 0x00000000, 0x00000004, "/DEVENV/QA/GAME/game_rec_area"),
+
             new RegInfo(0x78400200, 0x00000010, 0x00000000, "/DEVENV/QA/STANDBY"),
             new RegInfo(0x78400201, 0x00000000, 0x00000004, "/DEVENV/QA/STANDBY/actest_pattern"),
             new RegInfo(0x78400202, 0x00000000, 0x00000004, "/DEVENV/QA/STANDBY/actest_interval"),
+
             new RegInfo(0x78400300, 0x00000010, 0x00000000, "/DEVENV/QA/POWERTEST"),
             new RegInfo(0x78400301, 0x00000000, 0x00000004, "/DEVENV/QA/POWERTEST/navigation"),
             new RegInfo(0x78400302, 0x00000000, 0x00000004, "/DEVENV/QA/POWERTEST/shell_mediaplay"),
