@@ -7,8 +7,8 @@ jobs:
     runs-on: windows-latest
     env:
       SOLUTION_FILE: ./PS4_REGISTRY_EDITOR.sln
-      BUILD_CONFIG: x64
-      BUILD_TYPE: Any CPU
+      BUILD_CONFIG: Any CPU
+      BUILD_TYPE: Release
     steps:
     - name: Checkout
       uses: actions/checkout@main
