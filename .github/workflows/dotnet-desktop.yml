@@ -1,0 +1,27 @@
+name: .NET
+
+on: push
+
+jobs:
+  build:
+    runs-on: windows-latest
+    env:
+      SOLUTION_FILE: ./PS4_REGISTRY_EDITOR.sln
+      BUILD_CONFIG: x64
+      BUILD_TYPE: Release
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+    - name: Add MSBuild to PATH
+      uses: microsoft/setup-msbuild@main
+    - name: Build
+      run: |
+        # dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true -o bin
+        msbuild /m /p:Configuration="${{ env.BUILD_TYPE }}" /p:Platform="${{ env.BUILD_CONFIG }}" -maxcpucount:1 "${{ env.SOLUTION_FILE }}"
+
+    - name: Upload artifact
+      if: false
+      uses: actions/upload-artifact@main
+      with:
+        name: bin
+        path: bin
